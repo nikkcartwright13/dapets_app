@@ -1,0 +1,245 @@
+.phone-mockup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  --squircle: polygon(
+    73.286% 0%, 80.118% 0.014%, 82.937% 0.056%, 85.085% 0.126%, 86.876% 0.224%,
+    88.431% 0.351%, 89.812% 0.506%, 91.052% 0.691%, 92.176% 0.905%, 93.198% 1.149%,
+    94.129% 1.425%, 94.978% 1.733%, 95.75% 2.075%, 96.449% 2.451%, 97.08% 2.866%,
+    97.645% 3.32%, 98.146% 3.819%, 98.585% 4.367%, 98.963% 4.973%, 99.281% 5.646%,
+    99.541% 6.405%, 99.742% 7.28%, 99.885% 8.328%, 99.971% 9.704%, 100% 13.039%,
+    100% 86.961%, 99.971% 90.296%, 99.885% 91.672%, 99.742% 92.72%, 99.541% 93.595%,
+    99.281% 94.354%, 98.963% 95.027%, 98.585% 95.633%, 98.146% 96.181%, 97.645% 96.68%,
+    97.08% 97.134%, 96.449% 97.549%, 95.75% 97.925%, 94.978% 98.267%, 94.129% 98.575%,
+    93.198% 98.851%, 92.176% 99.095%, 91.052% 99.309%, 89.812% 99.494%, 88.431% 99.649%,
+    86.876% 99.776%, 85.085% 99.874%, 82.937% 99.944%, 80.118% 99.986%, 73.286% 100%,
+    26.714% 100%, 19.882% 99.986%, 17.063% 99.944%, 14.915% 99.874%, 13.124% 99.776%,
+    11.569% 99.649%, 10.188% 99.494%, 8.948% 99.309%, 7.824% 99.095%, 6.802% 98.851%,
+    5.871% 98.575%, 5.022% 98.267%, 4.25% 97.925%, 3.551% 97.549%, 2.92% 97.134%,
+    2.355% 96.68%, 1.854% 96.181%, 1.415% 95.633%, 1.037% 95.027%, 0.719% 94.354%,
+    0.459% 93.595%, 0.258% 92.72%, 0.115% 91.672%, 0.029% 90.296%, 0% 86.961%,
+    0% 13.039%, 0.029% 9.704%, 0.115% 8.328%, 0.258% 7.28%, 0.459% 6.405%,
+    0.719% 5.646%, 1.037% 4.973%, 1.415% 4.367%, 1.854% 3.819%, 2.355% 3.32%,
+    2.92% 2.866%, 3.551% 2.451%, 4.25% 2.075%, 5.022% 1.733%, 5.871% 1.425%,
+    6.802% 1.149%, 7.824% 0.905%, 8.948% 0.691%, 10.188% 0.506%, 11.569% 0.351%,
+    13.124% 0.224%, 14.915% 0.126%, 17.063% 0.056%, 19.882% 0.014%, 26.714% 0%
+  );
+}
+
+.phone-stage {
+  position: relative;
+  perspective: 1400px;
+  width: 290px;
+  height: 620px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .phone-stage {
+    animation: float 5s ease-in-out infinite;
+  }
+}
+
+.phone-3d {
+  --rx: 0deg;
+  --ry: 0deg;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: rotateX(var(--rx)) rotateY(var(--ry));
+  transform-style: preserve-3d;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.phone-frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 54px;
+  /* clip-path: var(--squircle); */
+  padding: 4px;
+  background: linear-gradient(
+    155deg,
+    #3d3d42 0%,
+    #1c1c20 16%,
+    #0a0a0c 40%,
+    #020203 60%,
+    #29292d 100%
+  );
+  box-shadow: 0 40px 70px -24px rgba(0, 0, 0, 0.6), 0 14px 28px -14px rgba(0, 0, 0, 0.45);
+}
+
+.phone-frame-ring {
+  position: absolute;
+  inset: 1px;
+  border-radius: 52px;
+  /* clip-path: var(--squircle); */
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.14),
+    inset 0 0 0 2px rgba(0, 0, 0, 0.55), inset 0 1.5px 1px rgba(255, 255, 255, 0.18);
+  pointer-events: none;
+  z-index: 3;
+}
+
+/* Side buttons, positioned along the titanium edge */
+
+.side-button {
+  position: absolute;
+  width: 3px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #0b0b0d, #3c3c41 45%, #0b0b0d);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.btn-mute {
+  left: -3px;
+  top: 13%;
+  height: 4%;
+}
+
+.btn-vol-up {
+  left: -3px;
+  top: 19%;
+  height: 7%;
+}
+
+.btn-vol-down {
+  left: -3px;
+  top: 28%;
+  height: 7%;
+}
+
+.btn-power {
+  right: -3px;
+  top: 19%;
+  height: 10%;
+}
+
+.phone-screen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  /* clip-path: var(--squircle); */
+  background: linear-gradient(160deg, var(--color-primary), var(--ink) 120%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-align: center;
+  padding: 24px;
+  overflow: hidden;
+}
+
+.phone-screenshot {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .phone-screenshot {
+    animation: rise-in 0.5s ease both;
+  }
+}
+
+/* Glass glare across the display */
+.phone-screen::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    115deg,
+    rgba(255, 255, 255, 0.16) 0%,
+    rgba(255, 255, 255, 0.04) 18%,
+    transparent 42%
+  );
+  pointer-events: none;
+  z-index: 4;
+}
+
+/* iOS home indicator */
+.phone-screen::after {
+  content: '';
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 34%;
+  height: 4px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.75);
+  z-index: 4;
+}
+
+.phone-screen-hint {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.65);
+  z-index: 1;
+}
+
+/* ---------- Caption below the phone frame ---------- */
+
+.phone-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.phone-caption-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-dark);
+  min-height: 19px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .phone-caption-label {
+    animation: rise-in 0.4s ease both;
+  }
+}
+
+.phone-dots {
+  display: flex;
+  gap: 6px;
+}
+
+.phone-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-border);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.phone-dot.active {
+  background: var(--color-primary);
+  transform: scale(1.35);
+}
+
+/* Smaller variant */
+
+.phone-stage--sm {
+  width: 200px;
+  height: 420px;
+}
+
+.phone-stage--sm .phone-frame {
+  border-radius: 32px;
+}
+
+/* Keep the larger stage from overflowing narrow phones, where the layout
+   has already stacked to a single column. */
+@media (max-width: 420px) {
+  .phone-stage {
+    width: 280px;
+    height: 580px;
+  }
+}

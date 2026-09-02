@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "title": "Dapet — The Next-Gen Pet Ecosystem: Social, Health & Services",
+    "description": "Dapet is an AI-powered pet platform seamlessly merging social networking, digital health passports, and service hubs into one unified app."
+  },
+  "nav": {
+    "home": "Home",
+    "app": "App",
+    "serviceCenters": "Service Hub",
+    "pricing": "Membership",
+    "coins": "Rewards & Coins",
+    "news": "Innovations",
+    "menuAria": "Toggle Navigation",
+    "themeToLight": "Switch to light theme",
+    "themeToDark": "Switch to dark theme"
+  },
+  "hero": {
+    "badge": "⚡ The Future of Pet Tech & Social Connectivity",
+    "titleLine1": "Share. Protect. Care.",
+    "titleAccent": "A whole new breed of social media.",
+    "subtitle": "Dapet bridges the gap between pet social networking, digital health tracking, and instant access to top-tier veterinary and grooming services.",
+    "ctaSecondary": "Explore Ecosystem"
+  },
+  "appScreens": {
+    "full": "Full Experience",
+    "home": "Dynamic Feed",
+    "discover": "Explore & Connect",
+    "service-centers": "Service Hub",
+    "vids": "Shorts & Vids",
+    "profile": "Digital Passport"
+  },
+  "features": {
+    "eyebrow": "ECOSYSTEM FEATURES",
+    "title": "Engineered for Paws. Powered by AI.",
+    "items": {
+      "profile": {
+        "title": "Digital Pet Identity & Passport",
+        "desc": "A dedicated digital profile featuring complete health records, vaccination history, and personal traits."
+      },
+      "groups": {
+        "title": "Themed Communities",
+        "desc": "Connect with local breed enthusiasts, share advice, and join local pet owner groups."
+      },
+      "listings": {
+        "title": "Interactive Map & SOS Alerts",
+        "desc": "Real-time geolocation tracking for lost/found alerts, adoption hubs, and local pet services."
+      },
+      "services": {
+        "title": "Verified Service Marketplace",
+        "desc": "Book top-rated 24/7 vet clinics, groomers, and pet hotels with instant digital confirmations."
+      },
+      "feed": {
+        "title": "AI-Curated Feed & Vids",
+        "desc": "High-engagement short video feeds and updates personalized to your pet's interests and breed."
+      },
+      "chat": {
+        "title": "Encrypted Direct Messaging",
+        "desc": "Instant, secure messaging with pet owners, fellow group members, and service centers."
+      }
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "HOW IT WORKS",
+    "title": "Four steps to unlock your pet's digital world",
+    "steps": {
+      "profile": {
+        "title": "Mint Digital Identity",
+        "desc": "Build a comprehensive digital profile and online health passport for your pet in under a minute."
+      },
+      "groups": {
+        "title": "Join Communities",
+        "desc": "Find local breed groups, share experiences, and build your pet's social network."
+      },
+      "feed": {
+        "title": "Engage & Share",
+        "desc": "Post short Vids, share milestones, and discover trending content tailored by AI."
+      },
+      "services": {
+        "title": "Book Services & Earn",
+        "desc": "Locate top-rated clinics or stores, scan QR tags, and earn Dapet Coins on every visit."
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "items": {
+      "free": {
+        "q": "Is Dapet free to use?",
+        "a": "Yes! The core social network, community groups, and basic feed are 100% free forever. Dapet Plus and Gold unlock advanced AI tools, digital passports, and elevated reward tiers."
+      },
+      "multi-pet": {
+        "q": "Can I manage multiple pets?",
+        "a": "Absolutely. Easily manage several individual pet identities and health profiles seamlessly from a single master account."
+      },
+      "business": {
+        "q": "How can service centers register?",
+        "a": "Service centers can apply through the Service Hub portal to gain a verified business profile, map placement, ratings, and direct booking management."
+      },
+      "safety": {
+        "q": "How is my data protected?",
+        "a": "We utilize end-to-end encryption for private messaging, automated content moderation, and robust data isolation protocols."
+      },
+      "platforms": {
+        "q": "Which platforms support Dapet?",
+        "a": "Dapet is launching natively across iOS and Android with Web app access for registered Service Centers."
+      }
+    }
+  },
+  "serviceCenters": {
+    "eyebrow": "SERVICE HUB FOR BUSINESS",
+    "title": "Empower your business with Dapet",
+    "heroAlt": "Dapet Service Center Ecosystem Overview",
+    "categories": {
+      "veterinary": {
+        "label": "Vet Medical Centers",
+        "desc": "Vaccinations, emergency treatments, and health consults."
+      },
+      "pet-store": {
+        "label": "Retail & Nutrition Hubs",
+        "desc": "Premium food, specialized gear, and accessories."
+      },
+      "grooming": {
+        "label": "Grooming & Spa",
+        "desc": "Styling, hygiene care, and wellness treatments."
+      },
+      "hotel": {
+        "label": "Resorts & Boarding",
+        "desc": "Verified temporary stays and premium boarding."
+      },
+      "dog-walker": {
+        "label": "Pro Walkers & Trainers",
+        "desc": "Daily exercise, behavioral training, and care."
+      }
+    },
+    "subtitle": "Scale your vet clinic, grooming salon, pet hotel, or pet store. Dapet provides service providers with direct targeted reach, seamless booking tools, map geolocation, and an engaged pet-parent customer base.",
+    "benefits": {
+      "eyebrow": "Digital Tools",
+      "title": "What Dapet offers service centers",
+      "items": {
+        "stats": {
+          "title": "Detailed statistics",
+          "desc": "Track visits, bookings, and customer interest in real time."
+        },
+        "loyalty": {
+          "title": "Loyalty points system",
+          "desc": "Reward returning customers with Dapet Coins and extra perks."
+        },
+        "reach": {
+          "title": "Potential customers",
+          "desc": "Reach new, interested pet owners in your area."
+        },
+        "retention": {
+          "title": "Loyal customers",
+          "desc": "Build long-term relationships with reviews, history, and personalized offers."
+        },
+        "promotion": {
+          "title": "Self-promotion",
+          "desc": "Publish posts, news, and your services to the Dapet community."
+        },
+        "ads": {
+          "title": "Online advertising",
+          "desc": "Run targeted ad campaigns based on location and interests."
+        },
+        "tools": {
+          "title": "Other digital tools",
+          "desc": "Booking management, customer chat, and more, all in one platform."
+        }
+      }
+    },
+    "showcase": {
+      "eyebrow": "Live in the app",
+      "titlePlain": "Your business shows up",
+      "titleAccent": "right in the app",
+      "text": "Pet owners find and choose service centers directly inside the Dapet app — filtered by location, category, and reviews.",
+      "points": [
+        "Appear in front of your target audience",
+        "Manage your profile, photos, and working hours",
+        "Get direct messages and bookings"
+      ]
+    }
+  },
+  "footer": {
+    "tagline": "The future of pet tech, social connectivity, and smart care.",
+    "about": "Our Vision",
+    "copyright": "© 2026 Dapet Technologies Inc. All rights reserved."
+  },
+  "phoneMockup": {
+    "placeholder": "Interactive App Demo Loading..."
+  },
+  "pages": {
+    "application": {
+      "sections": {
+        "full": {
+          "eyebrow": "ECOSYSTEM OVERVIEW",
+          "titlePlain": "All-in-One Pet Tech,",
+          "titleAccent": "in Action",
+          "text": "Experience how Dapet fuses social interactions, digital health passports, and service booking into one seamless experience.",
+          "points": [
+            "Unified social, health, and service infrastructure",
+            "Frictionless navigation between services and community",
+            "Real-time data synchronization"
+          ]
+        },
+        "home": {
+          "eyebrow": "DYNAMIC FEED",
+          "titlePlain": "Your Pet's World,",
+          "titleAccent": "Amplified",
+          "text": "Share high-definition moments, engage with local pet owners, and express love through paw reactions and comments.",
+          "points": [
+            "Rich photo and video publishing",
+            "Paw-tap instant reactions and threads",
+            "Algorithmic personalization based on breed and habits"
+          ]
+        },
+        "public": {
+          "eyebrow": "DISCOVER",
+          "titlePlain": "Smart Search &",
+          "titleAccent": "Local Community",
+          "text": "Find nearby pet parents, search verified clinics, and discover trending news in your immediate vicinity.",
+          "points": [
+            "Hyper-local discovery search filters",
+            "Real-time news and community updates",
+            "Map-integrated service locator"
+          ]
+        },
+        "vids": {
+          "eyebrow": "VIDS FEED",
+          "titlePlain": "Short Video Engine,",
+          "titleAccent": "Endless Fun",
+          "text": "Upload viral pet moments, watch trending short-form content, and connect with global pet creators.",
+          "points": [
+            "Ultra-smooth vertical video streaming",
+            "Instant interaction tools and shares",
+            "AI-powered trending content curation"
+          ]
+        },
+        "services": {
+          "eyebrow": "SERVICE MARKETPLACE",
+          "titlePlain": "Verified Care,",
+          "titleAccent": "On Demand",
+          "text": "Locate top-rated clinics, book grooming appointments, and unlock member-exclusive partner discounts.",
+          "points": [
+            "Transparent user reviews and rating matrix",
+            "Interactive map with real-time availability",
+            "Direct in-app booking and inquiry engine"
+          ]
+        },
+        "profile": {
+          "eyebrow": "DIGITAL IDENTITY",
+          "titlePlain": "Smart Pet Identity &",
+          "titleAccent": "Health Vault",
+          "text": "A comprehensive digital profile showcasing followers, media archives, badges, and medical histories.",
+          "points": [
+            "Unlimited cloud photo and video storage",
+            "Integrated Online Health Passport",
+            "Customizable bio and verified badges"
+          ]
+        }
+      }
+    },
+    "pricing": {
+      "eyebrow": "MEMBERSHIP TIERS",
+      "title": "Flexible Plans for Every Pet Parent",
+      "subtitle": "Unlock advanced AI features, health tools, and exclusive partner rewards.",
+      "tiers": {
+        "basic": {
+          "name": "Dapet Basic",
+          "price": "Free Forever",
+          "blurb": "Essential social tools to start your journey.",
+          "points": [
+            "5 photo & 2 video upload allowance",
+            "Standard Service Hub & QR scan access"
+          ]
+        },
+        "plus": {
+          "name": "Dapet Plus",
+          "price": "$3.99 / month  ·  $29.99 / year",
+          "blurb": "Designed for active pet owners seeking digital convenience.",
+          "points": [
+            "Unlimited photo & video storage",
+            "QR scan access with +15% bonus Dapet Coins",
+            "Verified Plus Profile Badge",
+            "Exclusive Dapet partner gifts & offers",
+            "Digital Online Pet / Dog Passport included"
+          ]
+        },
+        "gold": {
+          "name": "Dapet Gold",
+          "price": "$8.00 / month  ·  $79.99 / year",
+          "blurb": "The ultimate VIP experience with 24/7 AI-powered care.",
+          "points": [
+            "Unlimited photo & video storage",
+            "QR scan access with +25% bonus Dapet Coins",
+            "Elite VIP Profile Badge & Search Boost",
+            "Exclusive Dapet partner gifts & offers",
+            "Digital Online Pet / Dog Passport included",
+            "24/7 AI Vet Assistant (Instant Consultations)",
+            "Exclusive Service Center discounts",
+            "Priority early access to all new features"
+          ]
+        }
+      }
+    },
+    "coins": {
+      "eyebrow": "TOKENOMICS & REWARDS",
+      "title": "Dapet Coins Ecosystem",
+      "subtitle": "Gamifying pet care — get rewarded for keeping your pet active and healthy.",
+      "paragraph": "Earn Dapet Coins seamlessly by posting content, reviewing local service providers, and scanning QR tags during clinic visits. Redeem your Coins for premium features, store items, or partner discounts.",
+      "soon": "Full redemption catalog and exchange rates launching soon.",
+      "highlights": {
+        "earn": {
+          "title": "Activity Rewards Engine",
+          "desc": "Earn Dapet Coins effortlessly through social activity, high-quality posts, and community contributions."
+        },
+        "scan": {
+          "title": "QR Service Multipliers",
+          "desc": "Scan QR tags at participating clinics and groomers to trigger 15% to 25% Coin multipliers."
+        },
+        "redeem": {
+          "title": "Utility & Partner Perks",
+          "desc": "Redeem accumulated Coins for app upgrades, partner products, and exclusive offline services."
+        }
+      }
+    },
+    "news": {
+      "eyebrow": "INSIGHTS & UPDATES",
+      "title": "Latest Innovations",
+      "subtitle": "Product rollouts, AI feature updates, and community news.",
+      "cardPlaceholder": "Article publishing in progress..."
+    },
+    "about": {
+      "eyebrow": "OUR MISSION",
+      "title": "Unified Care. Frictionless Socializing.",
+      "subtitle": "Dapet was built to end the hassle of managing fragmented apps for pet care and social life.",
+      "problemTitle": "The Problem: Scattered Tools",
+      "problemText": "Modern pet owners are forced to navigate a maze of disconnected apps — using one platform for socializing, another for medical history, and search engines to locate vets. This fragmentation hurts care quality and wastes time.",
+      "solutionTitle": "The Solution: One Ecosystem",
+      "solutionText": "Dapet consolidates pet tech into a single, seamless platform. We combine digital pet identities, AI veterinary assistance, social networking, and service booking on a unified, high-performance architecture.",
+      "whyEyebrow": "THE DAPET ADVANTAGE",
+      "whyTitle": "Why Dapet Leads",
+      "why": {
+        "identity": {
+          "title": "Pet-First Digital Identity",
+          "desc": "Every profile is centered around the pet's unique personality and medical needs."
+        },
+        "ecosystem": {
+          "title": "All-in-One Synergy",
+          "desc": "Social feed, health vault, and booking working in total harmony."
+        },
+        "community": {
+          "title": "Hyper-Local Community",
+          "desc": "Connect with nearby owners of the same breed or in your immediate area."
+        },
+        "trust": {
+          "title": "Verified Business Network",
+          "desc": "A trusted marketplace backed by authentic reviews, map tracking, and transparent ratings."
+        }
+      }
+    }
+  }
+}

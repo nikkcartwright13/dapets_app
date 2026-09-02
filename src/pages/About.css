@@ -1,0 +1,84 @@
+.mission {
+  padding: 48px 0 96px;
+}
+
+.mission-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.mission-block h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-dark);
+  margin: 0 0 14px;
+}
+
+.mission-block p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--color-secondary);
+  margin: 0;
+}
+
+@media (max-width: 760px) {
+  .mission-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+.why {
+  padding: 0 0 96px;
+}
+
+.why h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-dark);
+  letter-spacing: -0.01em;
+  margin: 0 0 40px;
+  max-width: 560px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.why-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 26px 24px;
+  box-shadow: var(--shadow-sm);
+}
+
+.why-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.why-card h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: var(--color-dark);
+}
+
+.why-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-secondary);
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+}

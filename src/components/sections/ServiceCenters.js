@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import PageHeader from '../ui/PageHeader';
 import Reveal from '../ui/Reveal';
 import PhoneMockup from '../ui/PhoneMockup';
 import { SERVICE_CATEGORIES, SERVICE_CENTER_BENEFITS } from '../../data/content';
@@ -14,11 +13,7 @@ function ServiceCenters() {
 
   return (
     <>
-      <PageHeader
-        eyebrow={t('serviceCenters.eyebrow')}
-        title={t('serviceCenters.title')}
-        subtitle={t('serviceCenters.subtitle')}
-      />
+     
 
       <section className="app-screen">
         <div className="section-inner app-screen-inner">

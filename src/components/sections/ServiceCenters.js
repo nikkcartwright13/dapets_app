@@ -14,7 +14,6 @@ function ServiceCenters() {
   return (
     <>
      
-
       <section className="app-screen">
         <div className="section-inner app-screen-inner">
           <Reveal className="app-screen-copy">

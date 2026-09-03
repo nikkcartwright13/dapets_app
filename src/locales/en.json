@@ -30,6 +30,21 @@
     "vids": "Shorts & Vids",
     "profile": "Digital Passport"
   },
+  "homePreviews": {
+    "appPreview": {
+      "eyebrow": "SEE IT IN ACTION",
+      "titlePlain": "Your pet's world,",
+      "titleAccent": "in one app.",
+      "text": "From a dynamic social feed to instant service booking — take a look at what pet parents experience every day on Dapet.",
+      "cta": "Explore the App"
+    },
+    "servicePreview": {
+      "eyebrow": "SERVICE HUB",
+      "title": "Find trusted vets & groomers near you",
+      "subtitle": "Verified veterinary clinics, groomers, pet stores, and boarding — all searchable and bookable in one place.",
+      "cta": "See all categories"
+    }
+  },
   "features": {
     "eyebrow": "ECOSYSTEM FEATURES",
     "title": "Engineered for Paws. Powered by AI.",
@@ -274,6 +289,7 @@
           "name": "Dapet Basic",
           "price": "Free Forever",
           "blurb": "Essential social tools to start your journey.",
+          "cta": "Upgrade to Basic",
           "points": [
             "5 photo & 2 video upload allowance",
             "Standard Service Hub & QR scan access"
@@ -283,6 +299,7 @@
           "name": "Dapet Plus",
           "price": "$3.99 / month  ·  $29.99 / year",
           "blurb": "Designed for active pet owners seeking digital convenience.",
+          "cta": "Upgrade to Plus",
           "points": [
             "Unlimited photo & video storage",
             "QR scan access with +15% bonus Dapet Coins",
@@ -295,6 +312,7 @@
           "name": "Dapet Gold",
           "price": "$8.00 / month  ·  $79.99 / year",
           "blurb": "The ultimate VIP experience with 24/7 AI-powered care.",
+          "cta": "Upgrade to Gold",
           "points": [
             "Unlimited photo & video storage",
             "QR scan access with +25% bonus Dapet Coins",
@@ -306,7 +324,9 @@
             "Priority early access to all new features"
           ]
         }
-      }
+      },
+      "badgePopular": "POPULAR",
+      "badgeGold": "GOLD"
     },
     "coins": {
       "eyebrow": "TOKENOMICS & REWARDS",
@@ -370,7 +390,9 @@
       "contactEmailPlaceholder": "you@example.com",
       "contactMessageLabel": "Message",
       "contactMessagePlaceholder": "How can we help?",
-      "contactSubmit": "Send Message"
+      "contactSubmit": "Send Message",
+      "contactInfoTitle": "Talk to our team",
+      "contactInfoText": "Prefer email? Reach out directly and we'll respond within one business day."
     }
   }
 }

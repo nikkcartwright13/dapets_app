@@ -233,6 +233,15 @@
 
 .phone-stage--sm .phone-frame {
   border-radius: 32px;
+  padding: 2px;
+}
+
+.phone-stage--sm .phone-frame-ring {
+  border-radius: 30px;
+}
+
+.phone-stage--sm .phone-screen {
+  border-radius: 29px;
 }
 
 /* Keep the larger stage from overflowing narrow phones, where the layout

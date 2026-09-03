@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import PageHeader from '../components/ui/PageHeader';
 import Reveal from '../components/ui/Reveal';
 import ContactForm from '../components/ui/ContactForm';
 import { WHY_US } from '../data/about';
@@ -10,33 +9,33 @@ function About() {
 
   return (
     <>
-      <PageHeader
-        eyebrow={t('pages.about.eyebrow')}
-        title={t('pages.about.title')}
-        subtitle={t('pages.about.subtitle')}
-      />
-
-      <section className="story">
+      <section className="story dot-bg">
         <div className="section-inner story-inner">
           <Reveal>
             <span className="eyebrow">{t('pages.about.storyEyebrow')}</span>
-            <h2>{t('pages.about.storyTitle')}</h2>
+            <h1>{t('pages.about.storyTitle')}</h1>
             <p>{t('pages.about.storyTextOne')}</p>
             <p>{t('pages.about.storyTextTwo')}</p>
           </Reveal>
         </div>
       </section>
 
-      <section className="mission dot-bg">
+      <section className="mission">
         <div className="section-inner mission-grid">
           <Reveal>
             <div className="mission-block">
+              <span className="mission-icon" aria-hidden="true">
+                🧩
+              </span>
               <h2>{t('pages.about.problemTitle')}</h2>
               <p>{t('pages.about.problemText')}</p>
             </div>
           </Reveal>
           <Reveal delay={90}>
             <div className="mission-block">
+              <span className="mission-icon mission-icon--accent" aria-hidden="true">
+                ✨
+              </span>
               <h2>{t('pages.about.solutionTitle')}</h2>
               <p>{t('pages.about.solutionText')}</p>
             </div>
@@ -44,7 +43,7 @@ function About() {
         </div>
       </section>
 
-      <section className="why">
+      <section className="why dot-bg">
         <div className="section-inner">
           <Reveal>
             <span className="eyebrow">{t('pages.about.whyEyebrow')}</span>
@@ -54,7 +53,9 @@ function About() {
             {WHY_US.map((item, i) => (
               <Reveal delay={i * 90} key={item.key}>
                 <div className="why-card">
-                  <div className="why-dot" style={{ background: item.color }} />
+                  <span className="why-icon" style={{ background: item.color }}>
+                    {item.icon}
+                  </span>
                   <h3>{t(`pages.about.why.${item.key}.title`)}</h3>
                   <p>{t(`pages.about.why.${item.key}.desc`)}</p>
                 </div>
@@ -64,16 +65,25 @@ function About() {
         </div>
       </section>
 
-      <section className="contact dot-bg">
+      <section className="contact">
         <div className="section-inner">
           <Reveal className="contact-heading">
             <span className="eyebrow">{t('pages.about.contactEyebrow')}</span>
             <h2>{t('pages.about.contactTitle')}</h2>
             <p>{t('pages.about.contactSubtitle')}</p>
           </Reveal>
-          <Reveal delay={90}>
-            <ContactForm />
-          </Reveal>
+          <div className="contact-panel">
+            <Reveal className="contact-info">
+              <h3>{t('pages.about.contactInfoTitle')}</h3>
+              <p>{t('pages.about.contactInfoText')}</p>
+              <a className="contact-info-email" href="mailto:info@dapet.app">
+                info@dapet.app
+              </a>
+            </Reveal>
+            <Reveal delay={90}>
+              <ContactForm />
+            </Reveal>
+          </div>
         </div>
       </section>
     </>

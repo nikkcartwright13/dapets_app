@@ -38,3 +38,18 @@
   font-size: 13px;
   color: var(--color-secondary);
 }
+
+.footer-credit {
+  font-size: 13px;
+  color: var(--color-secondary);
+}
+
+.footer-credit a {
+  color: var(--color-secondary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer-credit a:hover {
+  color: var(--color-primary);
+}

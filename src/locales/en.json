@@ -9,7 +9,7 @@
     "serviceCenters": "Service Hub",
     "pricing": "Membership",
     "coins": "Rewards & Coins",
-    "news": "Innovations",
+    "about": "About Us",
     "menuAria": "Toggle Navigation",
     "themeToLight": "Switch to light theme",
     "themeToDark": "Switch to dark theme"
@@ -183,7 +183,8 @@
   "footer": {
     "tagline": "The future of pet tech, social connectivity, and smart care.",
     "about": "Our Vision",
-    "copyright": "© 2026 Dapet Technologies Inc. All rights reserved."
+    "copyright": "© 2026 Dapet Technologies Inc. All rights reserved.",
+    "platformBy": "Platform by"
   },
   "phoneMockup": {
     "placeholder": "Interactive App Demo Loading..."
@@ -323,16 +324,14 @@
         }
       }
     },
-    "news": {
-      "eyebrow": "INSIGHTS & UPDATES",
-      "title": "Latest Innovations",
-      "subtitle": "Product rollouts, AI feature updates, and community news.",
-      "cardPlaceholder": "Article publishing in progress..."
-    },
     "about": {
       "eyebrow": "OUR MISSION",
       "title": "Unified Care. Frictionless Socializing.",
       "subtitle": "Dapet was built to end the hassle of managing fragmented apps for pet care and social life.",
+      "storyEyebrow": "OUR STORY",
+      "storyTitle": "About Dapet",
+      "storyTextOne": "Founded in Europe, Dapet is a next-generation pet-tech startup transforming how pet owners care for their companions.",
+      "storyTextTwo": "We consolidate fragmented pet services into one seamless platform. With a single tap, pet parents can find and contact verified local service hubs, manage their pet's complete Digital Health Passport, and consult an integrated 24/7 AI Vet Assistant. Dapet combines social connectivity, smart technology, and instant service access to make premium pet care available to everyone.",
       "problemTitle": "The Problem: Scattered Tools",
       "problemText": "Modern pet owners are forced to navigate a maze of disconnected apps — using one platform for socializing, another for medical history, and search engines to locate vets. This fragmentation hurts care quality and wastes time.",
       "solutionTitle": "The Solution: One Ecosystem",
@@ -356,7 +355,17 @@
           "title": "Verified Business Network",
           "desc": "A trusted marketplace backed by authentic reviews, map tracking, and transparent ratings."
         }
-      }
+      },
+      "contactEyebrow": "GET IN TOUCH",
+      "contactTitle": "Contact Us",
+      "contactSubtitle": "Questions, partnership ideas, or feedback? Send us a message and we'll get back to you.",
+      "contactNameLabel": "Name",
+      "contactNamePlaceholder": "Your name",
+      "contactEmailLabel": "Email",
+      "contactEmailPlaceholder": "you@example.com",
+      "contactMessageLabel": "Message",
+      "contactMessagePlaceholder": "How can we help?",
+      "contactSubmit": "Send Message"
     }
   }
 }

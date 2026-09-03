@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import logo from '../../assets/logo/logo.png';
-import LanguageSwitcher from '../ui/LanguageSwitcher';
 import './Navbar.css';
 
 function getInitialTheme() {
@@ -21,8 +20,7 @@ function Navbar() {
     { to: '/app', label: t('nav.app') },
     { to: '/service-centers', label: t('nav.serviceCenters') },
     { to: '/pricing', label: t('nav.pricing') },
-    { to: '/coins', label: t('nav.coins') },
-    { to: '/news', label: t('nav.news') },
+    { to: '/about', label: t('nav.about') },
   ];
 
   useEffect(() => {
@@ -93,7 +91,6 @@ function Navbar() {
         </div>
 
         <div className="navbar-actions">
-          <LanguageSwitcher />
           <button
             type="button"
             className="theme-toggle"

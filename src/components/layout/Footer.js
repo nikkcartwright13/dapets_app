@@ -20,6 +20,12 @@ function Footer() {
           {t('footer.about')}
         </Link>
         <span className="footer-copy">{t('footer.copyright')}</span>
+        <span className="footer-credit">
+          {t('footer.platformBy')}{' '}
+          <a href="https://devline.digital" target="_blank" rel="noopener noreferrer">
+            devline.digital
+          </a>
+        </span>
       </div>
     </footer>
   );

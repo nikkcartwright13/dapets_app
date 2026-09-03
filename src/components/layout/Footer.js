@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import logo from '../../assets/logo/logo.png';
 import './Footer.css';
@@ -16,9 +15,6 @@ function Footer() {
           </span>
           <p className="footer-tagline">{t('footer.tagline')}</p>
         </div>
-        <Link className="footer-link" to="/about">
-          {t('footer.about')}
-        </Link>
         <span className="footer-copy">{t('footer.copyright')}</span>
         <span className="footer-credit">
           {t('footer.platformBy')}{' '}

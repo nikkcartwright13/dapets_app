@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import ScrollToTop from './components/ui/ScrollToTop';
-import IntroSplash from './components/ui/IntroSplash';
+// import IntroSplash from './components/ui/IntroSplash'; // temporarily disabled
 import Home from './pages/Home';
 import Application from './pages/Application';
 import ServiceCentersPage from './pages/ServiceCentersPage';
@@ -14,7 +14,7 @@ import './styles/common.css';
 function App() {
   return (
     <div className="site">
-      <IntroSplash />
+      {/* <IntroSplash /> */}
       <ScrollToTop />
       <Navbar />
       <Routes>

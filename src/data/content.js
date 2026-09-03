@@ -35,4 +35,5 @@ export const SERVICE_CENTER_BENEFITS = [
   { key: 'promotion', icon: '📣' },
   { key: 'ads', icon: '📱' },
   { key: 'tools', icon: '🛠️' },
+  { key: 'healthHistory', icon: '🏥' },
 ];

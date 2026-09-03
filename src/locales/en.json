@@ -10,6 +10,7 @@
     "pricing": "Membership",
     "coins": "Rewards & Coins",
     "about": "About Us",
+    "getApp": "Get the App",
     "menuAria": "Toggle Navigation",
     "themeToLight": "Switch to light theme",
     "themeToDark": "Switch to dark theme"
@@ -165,6 +166,10 @@
         "tools": {
           "title": "Other digital tools",
           "desc": "Booking management, customer chat, and more, all in one platform."
+        },
+        "healthHistory": {
+          "title": "Pet Health History Access",
+          "desc": "Access authorized pet health passports and vaccination histories to provide accurate care and services."
         }
       }
     },

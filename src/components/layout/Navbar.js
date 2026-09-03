@@ -16,11 +16,11 @@ function Navbar() {
   const location = useLocation();
 
   const NAV_ITEMS = [
-    { to: '/', label: t('nav.home'), end: true },
-    { to: '/app', label: t('nav.app') },
-    { to: '/service-centers', label: t('nav.serviceCenters') },
-    { to: '/pricing', label: t('nav.pricing') },
-    { to: '/about', label: t('nav.about') },
+    { to: '/', label: t('nav.home'), end: true, icon: '🏠', color: 'var(--color-primary)' },
+    { to: '/app', label: t('nav.app'), icon: '📱', color: 'var(--color-green)' },
+    { to: '/service-centers', label: t('nav.serviceCenters'), icon: '🛠️', color: 'var(--color-error)' },
+    { to: '/pricing', label: t('nav.pricing'), icon: '💳', color: '#f5a623' },
+    { to: '/about', label: t('nav.about'), icon: 'ℹ️', color: 'var(--color-secondary)' },
   ];
 
   useEffect(() => {
@@ -117,16 +117,27 @@ function Navbar() {
 
       {menuOpen && (
         <div className="mobile-menu">
-          {NAV_ITEMS.map((item) => (
-            <NavLink
-              key={item.to}
-              to={item.to}
-              end={item.end}
-              className={({ isActive }) => (isActive ? 'active' : '')}
-            >
-              {item.label}
-            </NavLink>
-          ))}
+          <div className="mobile-menu-list">
+            {NAV_ITEMS.map((item) => (
+              <NavLink
+                key={item.to}
+                to={item.to}
+                end={item.end}
+                className={({ isActive }) => `mobile-menu-item ${isActive ? 'active' : ''}`}
+              >
+                <span className="mobile-menu-icon" style={{ background: item.color }}>
+                  {item.icon}
+                </span>
+                <span className="mobile-menu-label">{item.label}</span>
+                <span className="mobile-menu-chevron" aria-hidden="true">
+                  ›
+                </span>
+              </NavLink>
+            ))}
+          </div>
+          <Link to="/app" className="mobile-menu-cta" onClick={() => setMenuOpen(false)}>
+            {t('nav.getApp')}
+          </Link>
         </div>
       )}
     </header>

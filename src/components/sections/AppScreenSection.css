@@ -135,7 +135,9 @@
   }
 
   .app-screen-points {
-    align-items: center;
+    align-items: flex-start;
+    width: fit-content;
+    margin: 0 auto;
   }
 
   .app-screen-copy h2 {

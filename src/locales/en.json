@@ -17,9 +17,9 @@
   },
   "hero": {
     "badge": "⚡ The Future of Pet Tech & Social Connectivity",
-    "titleLine1": "Share. Protect. Care.",
-    "titleAccent": "A whole new breed of social media.",
-    "subtitle": "Dapet bridges the gap between pet social networking, digital health tracking, and instant access to top-tier veterinary and grooming services.",
+    "titleLine1": "Social Network & Ai | ",
+    "titleAccent": "Digital Passport & Service Marketplace for Your Pet",
+    "subtitle": "Everything your pet needs, united in one smart app. Connect with a vibrant community, keep health records organized in a digital passport, and instantly reach top-rated local vets, groomers, and pet services.",
     "ctaSecondary": "Explore Ecosystem"
   },
   "appScreens": {
@@ -35,19 +35,19 @@
       "eyebrow": "SEE IT IN ACTION",
       "titlePlain": "Your pet's world,",
       "titleAccent": "in one app.",
-      "text": "From a dynamic social feed to instant service booking — take a look at what pet parents experience every day on Dapet.",
+      "text": "From a dynamic social feed to one-tap service discovery take a look at what pet parents experience every day on Dapet",
       "cta": "Explore the App"
     },
     "servicePreview": {
       "eyebrow": "SERVICE HUB",
       "title": "Find trusted vets & groomers near you",
-      "subtitle": "Verified veterinary clinics, groomers, pet stores, and boarding — all searchable and bookable in one place.",
+      "subtitle": "Verified veterinary clinics, groomers, pet stores, and boarding — all searchable and reachable with a single tap",
       "cta": "See all categories"
     }
   },
   "features": {
     "eyebrow": "ECOSYSTEM FEATURES",
-    "title": "Engineered for Paws. Powered by AI.",
+    "title": "Engineered for Paws, Built for Services.",
     "items": {
       "profile": {
         "title": "Digital Pet Identity & Passport",
@@ -63,10 +63,10 @@
       },
       "services": {
         "title": "Verified Service Marketplace",
-        "desc": "Book top-rated 24/7 vet clinics, groomers, and pet hotels with instant digital confirmations."
+        "desc": "24/7 vet clinics, groomers, and pet hotels with instant digital confirmations."
       },
       "feed": {
-        "title": "AI-Curated Feed & Vids",
+        "title": "Feed & Vids",
         "desc": "High-engagement short video feeds and updates personalized to your pet's interests and breed."
       },
       "chat": {
@@ -264,7 +264,7 @@
           "points": [
             "Transparent user reviews and rating matrix",
             "Interactive map with real-time availability",
-            "Direct in-app booking and inquiry engine"
+            "Smart Local Provider Directory & Chat"
           ]
         },
         "profile": {
@@ -273,7 +273,7 @@
           "titleAccent": "Health Vault",
           "text": "A comprehensive digital profile showcasing followers, media archives, badges, and medical histories.",
           "points": [
-            "Unlimited cloud photo and video storage",
+            "Unlimited photo and video storage",
             "Integrated Online Health Passport",
             "Customizable bio and verified badges"
           ]
@@ -284,6 +284,9 @@
       "eyebrow": "MEMBERSHIP TIERS",
       "title": "Flexible Plans for Every Pet Parent",
       "subtitle": "Unlock advanced AI features, health tools, and exclusive partner rewards.",
+      "trustBar": "Cancel anytime · No hidden fees · Secure checkout",
+      "billingMonthly": "Monthly",
+      "billingYearly": "Yearly",
       "tiers": {
         "basic": {
           "name": "Dapet Basic",
@@ -297,7 +300,9 @@
         },
         "plus": {
           "name": "Dapet Plus",
-          "price": "$3.99 / month  ·  $29.99 / year",
+          "priceMonthly": "$3.99",
+          "priceYearly": "$29.99",
+          "yearlySavings": "Save 37%",
           "blurb": "Designed for active pet owners seeking digital convenience.",
           "cta": "Upgrade to Plus",
           "points": [
@@ -310,7 +315,9 @@
         },
         "gold": {
           "name": "Dapet Gold",
-          "price": "$8.00 / month  ·  $79.99 / year",
+          "priceMonthly": "$8.00",
+          "priceYearly": "$79.99",
+          "yearlySavings": "Save 17%",
           "blurb": "The ultimate VIP experience with 24/7 AI-powered care.",
           "cta": "Upgrade to Gold",
           "points": [

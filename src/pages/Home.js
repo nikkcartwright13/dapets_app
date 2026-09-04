@@ -7,7 +7,6 @@ function Home() {
   return (
     <>
       <Hero />
-
       <Features />
       <AppPreview />
       <ServicePreview />
